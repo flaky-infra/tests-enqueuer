@@ -1,6 +1,6 @@
 {
   "name": "tests-enqueuer",
-  "version": "0.0.01",
+  "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/flaky-infra/tests-enqueuer#readme",
   "devDependencies": {
     "@types/amqplib": "^0.8.2",
+    "@types/js-yaml": "^4.0.5",
     "@types/node": "^18.0.1",
     "rimraf": "^3.0.2",
     "ts-node-dev": "^2.0.0",
@@ -28,6 +29,8 @@
   },
   "dependencies": {
     "amqplib": "^0.10.0",
-    "flaky-common": "^0.0.3"
+    "flaky-common": "^0.2.9",
+    "js-yaml": "^4.1.0",
+    "redis": "^4.2.0"
   }
 }
